@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(compgen -c)",
+      "Bash(env)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "mcp__figma-dev-mode-mcp-server__get_code",
+      "mcp__figma-dev-mode-mcp-server__get_image",
+      "mcp__figma-dev-mode-mcp-server__get_variable_defs",
+      "Bash(mv:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run type-check:*)",
+      "Bash(npm run:*)",
+      "Bash(grep:*)",
+      "Bash(node:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": false
+}
